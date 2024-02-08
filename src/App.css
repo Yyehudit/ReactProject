@@ -1,0 +1,33 @@
+
+.user-page-background {
+    background-image: url('https://galiagroup.com/wp-content/uploads/2021/05/-%D7%A9%D7%9C-%D7%9C%D7%95%D7%92%D7%95-%D7%97%D7%93%D7%A9-02-e1621086634412.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    width: 100vw;
+}
+#imge{
+    background-image: url('https://z4n.co.il/wp-content/uploads/2017/12/shutterstock_341170520-1.jpg');  
+    background-repeat: no-repeat;
+    height: 100vh; 
+    width: 73vw;
+    background-size: contain;
+}
+#flex{
+    display: flex;
+    flex-direction: row;
+    background-color:#0B0E13;
+}
+#flexx{
+    display: flex;
+    flex-direction: row;
+}
+#sheet{
+    height: 40vh;
+}
+#root{
+    width: 100vw;
+}
+#custom-dialog-actions {
+    justify-content: flex-start;
+  }
