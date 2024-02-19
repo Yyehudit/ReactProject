@@ -1,16 +1,12 @@
+import { useEffect,useState } from 'react';
+import { observer } from 'mobx-react';
 
 import serviceStore from '../../data/store/ServicesStore';
-import { observer } from 'mobx-react';
-import { useEffect,useState } from 'react';
 import { getServices } from '../../data/server/ServicesServer'
 import  AddMeeting  from '../meeting/AddMeeting'
-// import ImageList from '@mui/material/ImageList';
-// import ImageListItem from '@mui/material/ImageListItem';
-// import ImageListItemBar from '@mui/material/ImageListItemBar';
-import {Typography,Grid,Button,CardMedia,CardContent,CardActions,Card} from '@mui/material';
 import BiusnessData from '../businessData/BusinessData';
 
-
+import {Typography,Grid,Button,CardMedia,CardContent,CardActions,Card} from '@mui/material';
 
 const Services = (observer(() => {
 

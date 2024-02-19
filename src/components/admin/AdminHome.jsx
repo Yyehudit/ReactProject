@@ -1,10 +1,11 @@
-import { Outlet } from 'react-router-dom'
-import EditBusinessData from "../businessData/EditBusinessData"
-import { Link } from "react-router-dom";
-  import '../../App.css'
-  import { styled } from '@mui/material/styles';
-  import ButtonBase from '@mui/material/ButtonBase';
-  import Typography from '@mui/material/Typography';
+import { Outlet,  Link} from 'react-router-dom'
+
+import { styled } from '@mui/material/styles';
+import ButtonBase from '@mui/material/ButtonBase';
+import Typography from '@mui/material/Typography';
+
+import EditBusinessData from "../businessData/EditBusinessData"  
+import '../../App.css'
 
 function AdminHome() {
 

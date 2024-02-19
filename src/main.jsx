@@ -1,7 +1,8 @@
-import {RouterProvider,createBrowserRouter} from 'react-router-dom'
+
 import React from 'react'
+import {RouterProvider,createBrowserRouter} from 'react-router-dom'
 import ReactDOM from 'react-dom/client'
-import './index.css'
+
 import AdminPage from "./components/admin/AdminPage"
 import AdminHome from "./components/admin/AdminHome"
 import UserPage from "./components/user/UserPage"
@@ -12,12 +13,13 @@ import AddService from './components/services/AddService.jsx'
 import AddMeeting from './components/meeting/AddMeeting.jsx'
 import EditBusinessData from './components/businessData/EditBusinessData.jsx'
 
+import './index.css'
+
 const router = createBrowserRouter([
   {
       path:'/',
       element:<UserPage/>,
       errorElement:<div>404</div>
-      //לכתוב שגיאה
   },
   {
     path:'/login',

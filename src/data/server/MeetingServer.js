@@ -26,26 +26,6 @@ const addMeetToServer = async (meeting) => {
     }
 
 }
-//  const handleSetMeeting = async (data) => {
-//         try {
-//           const response = await axios.post('http://localhost:8787/appointment',data)
-//           MeetingStore.setMeetings(response.data)
-//           if(response.status===200)
-//           {
-//             return 'success'
-//           }  
-//         }
-//         catch(error)
-//          {
-//             if (error.response && error.response.status === 400)
-//             return 'failed'
-//         else {
-//             console.log(error);
-//         }
-//         }
-// }
-
-
 
 
  export { getMeeting, addMeetToServer };

@@ -1,7 +1,12 @@
+
+import { useState } from "react"
 import { useNavigate } from 'react-router-dom'
+
 import Login from "./Login"
 import AdminHome from './AdminHome';
-import { useState } from "react"
+
+
+
 
 function AdminPage() {
 
@@ -13,7 +18,6 @@ function AdminPage() {
   {
       !isLogin?
           <Login onLoginSuccess={() => setIsLogin(true)}/> :
-          // <AdminHome/>
           navigate("/admin/services")
 
   }

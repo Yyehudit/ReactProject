@@ -1,13 +1,18 @@
+import { Link } from 'react-router-dom'
+
 import BusinessData from "../businessData/BusinessData"
 import Services from "../services/Services"
-import { Link } from 'react-router-dom'
+
 import '../../App.css'
+
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
 import { Button } from "@mui/material"
 import { styled } from '@mui/material/styles';
 import ButtonBase from '@mui/material/ButtonBase';
 import Typography from '@mui/material/Typography';
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
+
+
 
 
 function UserPage() {
